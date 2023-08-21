@@ -1,0 +1,281 @@
+section {
+    width: 1440px;
+    height: 2300px;
+    flex-shrink: 0;
+    background: #F6EEE9;
+}
+
+body {
+    background: #F6EEE9;
+}
+
+.logo {
+    width: 196px;
+height: 97px;
+flex-shrink: 0;
+}
+
+
+h1 {
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: center;
+padding: 1.5%
+}
+
+h2 {
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: center;
+padding: 1.5%
+}
+
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.logo {
+    display: inline-block;
+    padding-top: 38px;
+    padding-left: 62;
+}
+ul {
+    display: inline-block;
+    padding-left: 920px;
+    margin-top: -8%;
+}
+
+h6{
+color: #7D5A30;
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.4px;
+}
+
+
+footer{
+    height: 300px;
+    background-color: #735645;
+    position: relative;
+    top: -900px;
+    padding: 70px;
+
+}
+
+h3{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+h4{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+h5{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.72px;
+}
+
+.headBox{
+    border: 1px solid #735645;
+    position: relative;
+    top: 50px;
+    width: 1440px;
+    height: 142px;
+    
+}
+.starOne{
+    position: absolute;
+    left: 180px;
+    top: -44px;
+}
+
+.starTwo{
+    position: absolute;
+    right: 180px;
+    top:99px;
+    z-index: 1;
+}
+
+
+.aboutMeTex{
+    border: 1px solid #735645;
+    height: 250px;
+    width: 1440px;
+    position: relative;
+    top: 49px;
+}
+
+p{
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding: 70px
+}
+
+
+.myUxTop{
+    border: 1px solid #735645;
+    height:142px ;
+}
+
+.boxStar-1{
+    border: 1px solid #735645;
+    width: 150px;
+    height: 142px;
+   position: relative;
+   top: 48px;
+
+}
+
+.boxStar-2{
+    border: 1px solid #735645;
+    width: 149px;
+    height: 142px;
+    position: absolute;
+    top: 629.5px;
+    right: -10px;
+
+}
+
+.six-star-1{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.six-star-2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.flexbox-container{
+    display: flex;
+    height: 412px;
+}
+
+.myUx {
+    text-align: center;
+    left:10px;
+}
+
+.myUxTop {
+    width: 1139px;
+    height: 142px;
+    position: absolute;
+    left: 159px;
+    top: 629.5px;
+}
+
+.flexbox-container {
+    width:1442px ;
+    height: 412px;
+    position: relative;
+    top: 47px;
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-item1 {
+    width: 480.5px;
+    border: 1px solid #735645;
+}
+
+.flexbox-item2 {
+    border: 1px solid #735645;
+    width: 480.5px;
+    
+
+}
+
+.flexbox-item3 {
+    border: 1px solid #735645;
+    width: 480.5px;
+   
+}
+
+.myUiTop {
+    border: 1px solid #735645;
+    position: relative;
+    top: 46px;
+    width: 1440px;
+    height: 142px;
+}
+
+.circleOne {
+    position: absolute;
+    left: 180px;
+    top: 1140px;
+    z-index: 1;
+}
+
+.circleTwo {
+    position: absolute;
+    right: 180px;
+    top: 1282px;
+    z-index: 1;
+    
+}
+
+.flex-container2 {
+    width:1442px ;
+    height: 412px;
+    position: relative;
+    top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: relative;
+    top: -600px
+}
+
+.Portfolio {
+    border: 1px solid #735645;
+
+}
+
+a{
+    text-decoration: none;
+text-emphasis: none;}
+
+.active{
+    color: aqua;
+}
