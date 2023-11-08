@@ -1,8 +1,13 @@
+html{
+    scroll-behavior: smooth;
+    transition: 5s;
+}
 section {
     width: 1440px;
-    height: 2300px;
+    height: 1300px;
     flex-shrink: 0;
     background: #F6EEE9;
+    margin-top: 70px;
 }
 
 body {
@@ -10,11 +15,15 @@ body {
 }
 
 .logo {
-    width: 196px;
-height: 97px;
-flex-shrink: 0;
+    margin-left: 10px;
 }
 
+hr {
+
+    border: 0.5px solid #7D5A30;
+    width: 350px;
+    
+}
 
 h1 {
     color: #7D5A30;
@@ -41,21 +50,73 @@ padding: 1.5%
 }
 
 
-li {
-    display: inline-block;
-    padding: 20px;
+nav{
+    height: 80px;
+    width: 100%;
 }
 
-.logo {
-    display: inline-block;
-    padding-top: 38px;
-    padding-left: 62;
+nav ul {
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
 }
-ul {
+
+nav ul li{ 
     display: inline-block;
-    padding-left: 920px;
-    margin-top: -8%;
+    line-height: 80px;
+    margin: 0 20px;
+
 }
+
+a.active,a:hover{
+    transition: .7s;
+    font-size: 20px;
+    background-color: #F1D7C7;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    padding: 1.3rem 10%;
+    background-color:#F6EEE9;
+
+}
+
+.navbar a{
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    padding: 7px 13px;
+    border-radius: 0px;
+
+}
+
+.menu{
+    position: absolute;
+    right: 5%;
+    font-size: 25px;
+    color: #7d5a30;
+    float: right;
+    line-height: 80px;
+    margin-top: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
 
 h6{
 color: #7D5A30;
@@ -68,43 +129,46 @@ letter-spacing: 1.4px;
 }
 
 
-footer{
-    height: 300px;
-    background-color: #735645;
-    position: relative;
-    top: -900px;
-    padding: 70px;
-
-}
 
 h3{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 20px;
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 22px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
 letter-spacing: 1.08px;
+text-align: center;
+padding-top: 12%;
+
 }
 
 h4{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 16px;
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 18px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
-letter-spacing: 0.48px;
+letter-spacing: 1.08px;
+text-align: left;
+margin-left:113px ;
+margin-top: 10px;
+
 }
 
-h5{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.72px;
+h5 {
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: 0px;
+    letter-spacing: 0.75px;
+    margin-left: 113px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
 }
 
 .headBox{
@@ -126,6 +190,7 @@ letter-spacing: 0.72px;
     right: 180px;
     top:99px;
     z-index: 1;
+
 }
 
 
@@ -160,6 +225,7 @@ p{
     height: 142px;
    position: relative;
    top: 48px;
+   display: none;
 
 }
 
@@ -168,9 +234,9 @@ p{
     width: 149px;
     height: 142px;
     position: absolute;
-    top: 629.5px;
+    top: 573.5px;
     right: -10px;
-
+display: none;
 }
 
 .six-star-1{
@@ -196,18 +262,17 @@ p{
 }
 
 .myUxTop {
-    width: 1139px;
+    width: 100%;
     height: 142px;
     position: absolute;
-    left: 159px;
-    top: 629.5px;
+    top: 643.5px;
 }
 
 .flexbox-container {
     width:1442px ;
     height: 412px;
     position: relative;
-    top: 47px;
+    top: 191px;
     display: flex;
     justify-content: center;
 }
@@ -233,7 +298,7 @@ p{
 .myUiTop {
     border: 1px solid #735645;
     position: relative;
-    top: 46px;
+    top: 190px;
     width: 1440px;
     height: 142px;
 }
@@ -241,15 +306,17 @@ p{
 .circleOne {
     position: absolute;
     left: 180px;
-    top: 1140px;
+    top: 1085px;
     z-index: 1;
+    display: none;
 }
 
 .circleTwo {
     position: absolute;
     right: 180px;
-    top: 1282px;
+    top: 1227px;
     z-index: 1;
+    display: none;
     
 }
 
@@ -257,16 +324,28 @@ p{
     width:1442px ;
     height: 412px;
     position: relative;
-    top: 45px;
+    top: 189.1px;
     display: flex;
     justify-content: center;
 }
 
-footer {
-    position: relative;
-    top: -600px
+footer{
+    margin-top: 350px;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #7D5A30
+
+
 }
 
+.contactBox{
+    border: 1px solid #7D5A30;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left: 8px;
+    top: 1849.5px
+}
 .Portfolio {
     border: 1px solid #735645;
 
@@ -278,4 +357,79 @@ text-emphasis: none;}
 
 .active{
     color: aqua;
+}
+
+
+.arrowOne{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.arrowTwo{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -5px;
+}
+
+.arrowThree{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.postal {
+    left: 576px;
+    position: relative;
+}
+
+.logoFooter {
+    right: 50px;
+    margin-top: 40px;
+    position: absolute;
+
+}
+
+.research {
+    position: relative;
+    left:110px;
+    top: 50px;
+}
+
+.researchText {
+    position: absolute;
+    left: 40px;
+}
+
+.testing {
+    position: relative;
+    left:95px;
+    top: 50px;
+}
+
+.information {
+    position: relative;
+    left:110px;
+    top: 50px;
+}
+
+.wireframing {
+    position: relative;
+    left:110px;
+    top: 50px;
+}
+
+.visual {
+    position: relative;
+    left:110px;
+    top: 50px;
+}
+
+.interaction {
+    position: relative;
+    left:120px;
+    top: 50px;
 }

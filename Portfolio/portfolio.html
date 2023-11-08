@@ -1,68 +1,114 @@
 <html>
     <head>
+        <link rel="icon" type="image/x-icon" href="Images/star.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" type = "text/css" href="css/styleportfolio.css">
+        <script src="https://kit.fontawesome.com/b83448d550.js" crossorigin="anonymous"></script>
     </head>
-</header>
+
 <body>
-    <header> 
-<img src="Images/logo_Mesa de trabajo 1.png" class="logo" alt="logo" width="196" height="97">
-<ul>
+    <header class="header"> 
+        <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="menu">
+                <i class="fas fa-bars fa-lg"></i>
+            </label>
+<a href="https://www.marirondonq/index.html"><img src="Images/logo_Mesa de trabajo 1.png" class="logo" alt="logo" width="196" height="97"> </a>
+<ul class="nav_list">
+    <li> <a href="3"> HOME</a> </li>
     <li class="nav_item">
-        <a class="nav_link" href="/AboutMe/aboutme.html">  <h6>ABOUT ME</h6> </a>
+        <a href="https://www.marirondonq/aboutme.html"> ABOUT ME </a>
     </li>
     <li class="nav_item">
-        <a class="nav_link" href="/Portfolio/portfolio.html"> <h6>PORTFOLIO</h6> </a>
+        <a href="https://www.marirondonq/portfolio.html"> PORTFOLIO </a>
     </li>
-    <li> <h6>CONTACT</h6> </li>
+    <li class="nav_item">
+        <a href="#contactBox"> CONTACT </a>
+    </li>
 </ul>
+</nav>
 </header>
 <section>
+    
     <div class="portfolio"> 
         <img src="Images/star.png" width="87px" height="87px" class="starOne">
-        <h2> Portfolio </h2>
+        <h1> Portfolio </h1>
         <img src="Images/startwo.png" width="87px" height="87px" class="startwo">
     </div>
- <div class="flexbox-container"> 
-    <div class="flexbox-item1"> 
-        <h2> Food Finders</h2>
-        <h5> Redesign </h5>
+
+    <div class="slideShow">
+
+    <div class="proyectPic">
+        <div class="image1" id="image1">
+        <img src="Images/NSApic_Mesa de trabajo 1.png" alt="NSAPic" class="NSAPic" width="720px" height="740px" alt="Project 1 Preview">
     </div>
-    <div class="flexbox-item2"> 
-        <h2> Event Key </h2>
-        <h5> Interface Design </h5>
+    <div class="image2" id="image2">
+        <img src="Images/SavingsPalPic-2-02.png"  alt="SavingsPalPicclass"  class="SavingsPalPic" width="720px" height="740px" alt="Project 2 Preview">
     </div>
-    <div class="flexbox-item3"> 
-        <h2> National Security Agency</h2>
-        <h5> Redesign </h5>
+    <div class="image3" id="image3">
+        <img src="Images/FoodFindersPic-03.png"  alt="FoodFindersPic" class="FoodFindersPic" width="720px" height="740px" alt="Project 3 Preview">
+        </div>
     </div>
+
+<div class="project-list">
+
+<a href="Food Finders/foodfinders.html">    <div class="division1" id="division1" data-image="Images/FoodFindersPic-03.png">
+    <h2 class="title">Food Finders</h2>
+    <h6>Non profit</h6>
+    <h6> Website, UX/UI </h6>
+    </div>
+</a>
+
+   <a href="Savings Pal/Savings Pal.html"> <div class="division2" id="division2" data-image="Images/SavingsPalPic-2-02.png" >
+    <h2 class="title">Savings Pal</h2>
+    <h6>Savings App</h6>
+    <h6> App, UX/UI </h6>
+    </div>
+   </a>
+
+   <a href="NSA/nsa.html"> <div class="division3" id="division3" data-image="Images/NSApic_Mesa de trabajo 1.png">
+    <h2 class="title">National Security Agency</h2>
+    <h6>Goverment Agency</h6>
+    <h6> Website Redesign, UI/UX </h6>
+    </div>
+   </a>
+
+    <div class="division4" id="division4">
+    <h2 class="title">Event Key</h2>
+    <h6>Events App</h6>
+    <h6> App, UI/UX </h6>
+    </div>
+    
+    <div class="division5" id="division5">
+    <h2 class="title">Vacay</h2>
+    <h6>Vacation Planner App</h6>
+    <h6> App, UI/UX </h6>
 </div>
- <div class="flexbox-container2"> 
-    <div class="flexbox-item1-2"> 
-        <h2> Food Finders</h2>
-        <h5> Redesign </h5>
-    </div>
-    <div class="flexbox-item2-2"> 
-        <h2> Event Key </h2>
-        <h5> Interface Design </h5>
-    </div>
-    <div class="flexbox-item3-2"> 
-        <h2> National Security Agency</h2>
-        <h5> Redesign </h5>
-    </div>
+</div>
 </div>
 
-    <footer>
-        <h3> Get in Touch! </h3>
-        <h4> Email </h4>
+<footer>
+    <div class="contactBox"> 
+        <h3  id="contactBox"> Get in Touch! </h3>
+        <h4> Contact </h4>
+        <hr>
+        <a href="mailto:rondonmariana99@gmail.com"><img src="Images/arrow_Mesa de trabajo 1 copy 2.png" class="arrowOne"></a>
+        <a href="mailto:rondonmariana99@gmail.com"> <h5> rondonmariana99@gmail.com</h5></a>
+        <hr>
+        <img src="Images/arrow_Mesa de trabajo 1 copy.png" class="arrowTwo">
+        <h5> (571) 6208430 </h5>
+        <hr>
+        <a href="https://www.linkedin.com/in/mariana-rondon-296546219/"><img src="Images/arrow_Mesa de trabajo 1.png" class="arrowThree"></a>
+        <a href="https://www.linkedin.com/in/mariana-rondon-296546219/"><h5> Linkedln</h5> </a>
+        <hr>
         <link>
-        <h4> Phone Number</h4>
-        <h5> (571)620/8430 </h5>
-        <h4> Linkedln</h4>
-        <link>
+        </div>
+        <img src="Images/postal_Mesa de trabajo 1.png" height="400px" class="postal">
+        <img src="Images/logo_Mesa de trabajo 1 copy.png" class="logoFooter" width="196" height="97" >
     </footer>
-
 </section>
 </body>
-</html>
-
+<script src="portfolio.js"></script>
 </html>

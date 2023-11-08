@@ -1,20 +1,21 @@
+html{
+    scroll-behavior: smooth;
+    transition: 7s;
+}
+
 section {
-    width: 1440px;
+    width: 100%;
     height: 600px;
-    flex-shrink: 0;
     background: #F6EEE9;
+    margin-top: 70px;
 }
 
 body {
     background: #F6EEE9;
 }
-
 .logo {
-    width: 196px;
-height: 97px;
-flex-shrink: 0;
+    margin-left: 10px;
 }
-
 
 h1 {
     color: #7D5A30;
@@ -25,101 +26,161 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 1.08px;
 text-align: center;
-padding: 1.5%
+padding: 3.2%
 }
 
 h2 {
     color: #7D5A30;
 font-family: Playfair Display;
-font-size: 30px;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: left;
+padding-left: 40px;
+}
+
+h3{
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 22px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 1.08px;
 text-align: center;
-padding: 1.5%
+padding-top: 12%;
 }
 
 
-li {
+nav{
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+nav ul li{ 
     display: inline-block;
-    padding: 20px;
-}
-
-.logo {
-    display: inline-block;
-    padding-top: 38px;
-    padding-left: 62;
-}
-ul {
-    display: inline-block;
-    padding-left: 920px;
-    margin-top: -8%;
-}
-
-h6{
-color: #7D5A30;
-font-family: Montserrat;
-font-size: 17px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 1.4px;
-}
-
-
-footer{
-    height: 300px;
-    background-color: #735645;
-    position: relative;
-    top: -900px;
-    padding: 70px;
+    line-height: 80px;
+    margin: 0 20px;
 
 }
 
-h3{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 1.08px;
+a.active,a:hover{
+    transition: .7s;
+    font-size: 20px;
+    background-color: #F1D7C7;
 }
 
-h4{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.48px;
+a{
+    text-decoration: none;
 }
 
-h5{
+.header {
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    padding: 1.3rem 10%;
+    background-color:#F6EEE9;
+
+}
+
+.navbar a{
     color: #7D5A30;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-align: center;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    padding: 7px 13px;
+    border-radius: 0px;
+
 }
+
+.menu{
+    position: absolute;
+    right: 5%;
+    font-size: 25px;
+    color: #7d5a30;
+    float: right;
+    line-height: 80px;
+    margin-top: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+
+h4{
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: left;
+margin-left:113px ;
+margin-top: 10px;
+
+}
+
+h5 {
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: 0px;
+    letter-spacing: 0.75px;
+    margin-left: 113px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+h6 {
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: 0px;
+    letter-spacing: 0.75px;
+    margin-left: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+
     
 .starOne{
     position: absolute;
-    left: 180px;
+    left: 60px;
     top: -44px;
     z-index: 1;
+    display: none;
 }
 
 .starTwo{
     position: absolute;
-    right: 180px;
+    right: 60px;
     top:99px;
     z-index: 1;
+    display: none;
 }
 
 
@@ -161,7 +222,7 @@ p {
 
 footer {
     position: relative;
-    top: 250px
+    top: -270px
 }
 
 
@@ -169,7 +230,7 @@ footer {
     position:relative;
     top: 50px;
     border: 1px solid #735645;
-    width: 1440px;
+    width: 720px;
     height: 142px;
     
 }
@@ -201,4 +262,141 @@ footer {
 
 a{
     text-decoration: none;
+}
+
+footer{
+    margin-top: 350px;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #7D5A30
+
+
+}
+
+.contactBox{
+    border: 1px solid #7D5A30;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left:-1px;
+    top: -1px
+}
+.Portfolio {
+    border: 1px solid #735645;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.arrowOne{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.arrowTwo{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -5px;
+}
+
+.arrowThree{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.postal {
+    left: 570px;
+    position: relative;
+}
+
+hr {
+
+    border: 0.5px solid #7D5A30;
+    width: 350px;
+    
+}
+.logoFooter {
+    right: 50px;
+    margin-top: 40px;
+    position: absolute;
+
+}
+
+.division1,
+.division2,
+.division3,
+.division4,
+.division5{
+    list-style-type: none;
+    border: 0.5px solid #7D5A30;
+    width: 720.5px;
+    height: 118.6px;
+    position: relative;
+    margin-left: 0px;
+    z-index: 1;
+
+    
+}
+
+.division1.active,.division1:hover,
+.division2.active,.division2:hover,
+.division3.active,.division3:hover,
+.division4.active,.division4:hover,
+.division5.active,.division5:hover {
+    transition: .7s;
+    background-color: #F1D7C7;
+
+
+}
+
+.slideShow{
+    display: block;
+
+}
+
+.proyectPic{
+    border: 1px solid #735645;
+    width: 720px;
+    height: 740px;
+    margin-left: 721px;
+    margin-top: -94px;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.division-images {
+    display: flex;
+    justify-content: center;
+
+}
+
+.project-list{
+    margin-top: -599px;
+    width: 720.5px;
+    border: 0.5px solid #735645;;
+}
+
+.project-images {
+    display: flex;
+    justify-content: center;
+}
+
+.image1,
+.image2,
+.image3 {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s, display 0.5s;
+}
+
+.division1:hover + .image1{
+    display: block;
 }
