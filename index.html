@@ -1,23 +1,36 @@
 <html>
     <head>
+        <link rel="icon" type="image/x-icon" href="CSS/Images/star.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <link rel="stylesheet" type = "text/css" href="CSS/style.css">
+       <script src="https://kit.fontawesome.com/b83448d550.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header> 
-    <img src="Images/logo_Mesa de trabajo 1.png" class="logo" alt="logo" width="196" height="97">
-    <nav>
+        <header class="header"> 
+            <nav class="navbar">
+                <input type="checkbox" id="check">
+                <label for="check" class="menu">
+                    <i class="fas fa-bars fa-lg"></i>
+                </label>
+    <a href="https://www.marirondonq/index.html"><img src="Images/logo_Mesa de trabajo 1.png" class="logo" alt="logo" width="196" height="97"></a>
     <ul class="nav_list">
-        <li class="nav_item">
-            <a class="nav_link" href="AboutMe/aboutme.html">  <h6>ABOUT ME</h6> </a>
+        <li> <a href="https://www.marirondonq/index.html"> HOME</a> </li>
+        <li>
+            <a class="nav_link" href="https://www.marirondonq/aboutme.html"> ABOUT ME </a>
         </li>
-        <li class="nav_item">
-            <a class="nav_link" href="Portfolio/portfolio.html"> <h6>PORTFOLIO</h6> </a>
+        <li>
+            <a class="nav_link" href="https://www.marirondonq/portfolio.html"> PORTFOLIO </a>
         </li>
-        <li> <h6>CONTACT</h6> </li>
+        <li>
+            <a href="#contactBox"> CONTACT </a>
+        </li>
     </ul>
 </nav>
     </header>
     <section>
+        <div class="flexboxContainer">
         <div class="firstBox">
             <img src="Images/star.png" alt="start1" width="87" height="87" class="starOne">
             <h1 style="position: relative; top: -450px;" > Hi! I’m Mariana Rondon an UI/UX & Graphic Designer </h1>
@@ -29,10 +42,9 @@
         </div>
         <div class="pictureBox"> 
             <img src="Images/circle.png" alt="circle" width="87" height="87" class="circleOne">
-            <img src= "Images/a210da10f17f0e15dbbe861016c135d1.jpeg"alt="model" width="518" height="803" class="portrait">
+            <img src= "Images/pexels-mariam-antadze-6618562.jpg"alt="model" width="518" height="803" class="portrait">
             <img src="Images/circle-02.png" alt="circle" width="87" height="87" class="circleTwo">
         </div>
-        <div> </div>
         <div class="starBox">
             <img src="Images/shapes-03.png" alt=" start2" width="95" height="88" class="sixStar">
         </div>
@@ -45,22 +57,50 @@
 
     <div class="skills">
         <h2> Skills </h2>
-        <p class="pTwo">With my technical skills in Adobe Creative Suite, Figma, Procreate, branding, graphic design, IU/UX design, editorial, typography, motion, illustration, and concept design, I am confident in my ability to bring unique solutions and deliver high-quality results. I am a problem-solver and thrive in fast-paced environments, adapting easily to changing requirements and delivering results with precision and accuracy.</p>
+        <p class="pTwo">
+            <ul>
+            <li>Adobe Creative Suite</li>
+            <li> Figma </li>
+            <li>IU/UX Design </li>
+            <li>Research </li>
+            <li>HTML & CSS </li>
+            <li> Design Thinking </li>
+            <li> Prototype </li>
+            <li> Information Architecture </li>
+            <li>Procreate</li>
+            <li>Graphic Design </li>
+            <li>Concept Design</li>
+            <li>Empathy </li>
+            <li>Creative Thinking </li>
+            <li>Teamwork</li>
+            <li>Adaptability</li>
+            <li>Problem-solving</li>
+            <li>Detail oriented </li>
+           <li>Innovation</li> 
+        </ul>
+            </p>
     </div>
-    <div class="box">
-
-    </div>
+  
+</div>
     
-    </section>
-
-    <footer>
-        <h3> Get in Touch! </h3>
-        <h4> Email </h4>
-        <link rondonmariana99@gmail.com>
-        <h4> Phone Number</h4>
-        <h5> (571)6208430 </h5>
-        <h4> Linkedln</h4>
+<footer>
+    <div class="contactBox"> 
+        <h3  id="contactBox"> Get in Touch! </h3>
+        <h4> Contact </h4>
+        <hr>
+        <a href="mailto:rondonmariana99@gmail.com"><img src="Images/arrow_Mesa de trabajo 1 copy 2.png" class="arrowOne"></a>
+        <a href="mailto:rondonmariana99@gmail.com"> <h5> rondonmariana99@gmail.com</h5></a>
+        <hr>
+        <img src="Images/arrow_Mesa de trabajo 1 copy.png" class="arrowTwo">
+        <h5> (571) 6208430 </h5>
+        <hr>
+        <a href="https://www.linkedin.com/in/mariana-rondon-296546219/"><img src="Images/arrow_Mesa de trabajo 1.png" class="arrowThree"></a>
+        <a href="https://www.linkedin.com/in/mariana-rondon-296546219/"><h5> Linkedln</h5> </a>
+        <hr>
         <link>
+        </div>
+        <img src="Images/postal_Mesa de trabajo 1.png" height="400px" class="postal">
+        <img src="Images/logo_Mesa de trabajo 1 copy.png" class="logoFooter" width="196" height="97" >
 </div>
     </body>
     <script src="JS/index.js"></script>
