@@ -359,6 +359,8 @@ hr {
 .slideShow{
     display: block;
 
+    
+
 }
 
 .proyectPic{
@@ -381,7 +383,8 @@ hr {
 .project-list{
     margin-top: -599px;
     width: 720.5px;
-    border: 0.5px solid #735645;;
+    border: 0.5px solid #735645;
+    position: absolute;
 }
 
 .project-images {
@@ -391,12 +394,10 @@ hr {
 
 .image1,
 .image2,
-.image3 {
+.image3,
+.image4,
+.image5 {
     display: none;
     opacity: 0;
     transition: opacity 0.5s, display 0.5s;
-}
-
-.division1:hover + .image1{
-    display: block;
 }
